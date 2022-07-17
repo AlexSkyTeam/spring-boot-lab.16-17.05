@@ -45,7 +45,7 @@ X-Login: vasya
 X-Password: password
 
 ### posts.getById
-GET http://localhost:8080/posts/1
+GET http://localhost:8080/posts/3
 X-Login: vasya
 X-Password: password
 
@@ -72,7 +72,7 @@ X-Password: password
 Content-Type: application/json
 
 {
-  "id": 2,
+  "id": 3,
   "content": "Demo Post (updated)",
   "tags": ["demo", "fun"],
   "geo": {
@@ -82,6 +82,6 @@ Content-Type: application/json
 }
 
 ### posts.deleteById
-DELETE http://localhost:8080/posts/2
+DELETE http://localhost:8080/posts/1
 X-Login: vasya
 X-Password: password
